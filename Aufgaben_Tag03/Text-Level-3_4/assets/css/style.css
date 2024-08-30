@@ -1,0 +1,11 @@
+
+body{
+    background-color: rgb(120, 111, 30);
+}
+
+
+h1{
+    text-shadow: 2px 2px orangered, 3px 3px orange, 4px 4px rgba(22, 103, 168, 0.888), 5px 5px beige, 6px 6px rgb(37, 112, 37);
+    text-align: center;
+    font-family: cursive;
+}

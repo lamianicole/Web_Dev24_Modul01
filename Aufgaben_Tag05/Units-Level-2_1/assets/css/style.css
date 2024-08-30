@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-size: 25px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*ist das notwendig in :root? oder in body{? oder weglassen?*/
+
+li{
+    line-height: 1.5em;
+    font-size: 0.8em;
+}
+
+ul{
+padding-inline-start: 1.2em;
+list-style-type: none;
+}
+
+.dog li::marker{
+    content: "🐶";	
+}
+
+.cat li::marker{
+    content: "🐈";	
+}
+
+.parrot li::marker{
+    content: "🦜";
+}
+
+.snake li::marker{
+    content: "🐍"; 
+}
+
+.lizzard li::marker{ 
+    content: "🦎";
+}
+
+section{
+    font-size: 1rem;
+    border: solid black 2px;
+}
+

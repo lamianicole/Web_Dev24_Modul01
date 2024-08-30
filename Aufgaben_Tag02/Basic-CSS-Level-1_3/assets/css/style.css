@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: goldenrod;
+    padding: 5px 0px 5px 40px;
+    color: red;
+}
+
+nav, a{
+    color: red;
+}
+
+body{
+    background-color: lightgray;
+}
+
+h1{
+    padding: 15px 0px 15px 10px;
+}
+
+main p{
+    padding: 5px 0px 5px 10px;
+}
+
+p span{
+    color: red
+}
+
+img{
+    margin-left: 10px;
+}
+
+
