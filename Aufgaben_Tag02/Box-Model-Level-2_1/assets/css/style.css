@@ -1,43 +1,47 @@
-body{
-    width: 400px;
-    margin: 0 auto;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+/* Komme mit den Werten nicht zurecht: margin, width*/
+
 h1{
+    border: black, 2px, dashed;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
     width: 300px;
     margin: 0 auto;
-    padding: 20px;
-    border: 2px;
-    border-style: dashed;
-    border-radius: 18px;
-    text-align: center;
-    font-weight: bold;
+    padding: 10px;
 }
 
 p{
-    margin: 0 auto;
-    padding: 10px 15px;
-    border: 2px;
-    border-color: orange;
+    border: orange, 2px, solid;
     text-align: center; 
-    color: violet    
+    color: violet; 
+    width: 400px; 
+    margin: 10px, auto;
+    padding: 10px;  
+    font-size: 10px;
 }
 
 p::first-letter {
-    font-size: 2em;
+    font-size: 20px;
 }
 
 p:hover::first-letter {
-    font-size: 4em;
+    font-size: 35px;
     color:brown;
 }
 
 h2{
-    width: 260px;
-    padding: 15px;
+    width: 200px;
+    /*padding: 15px;*/
     border: 2px;
     border-radius: 15px;
-    box-shadow: black;
+    box-shadow: 2px 2px black;
+    font-size: 15px; 
     text-align: center; 
 }
 
@@ -45,20 +49,23 @@ ol, ul{
     width: 380px;
     padding: 15px 20px;
     margin: 20px auto;
-    border: dashed
+    border: dashed;
     border-color: green;
     text-align:left; 
 }
 
 li{
-    border-bottom: 3px greenyellow;
+    border-bottom: 1px solid green;
+    font-size: 15px;
 }
 
 h3{
     width: 180px;
     padding: 10px;
     margin: auto;
-    border: thick;
-    border-color: black;
+    border: double;
+    border-color: greenyellow;
+    border-radius: 10px;
+    border-width: 10px;
     text-align: center; 
 }
