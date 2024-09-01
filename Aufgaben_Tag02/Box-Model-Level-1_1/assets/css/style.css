@@ -9,5 +9,7 @@ p {
     width: 200px;
     padding: 25px;
     border: 25px solid black;
-    margin: 25px auto;
+    margin: 25px; auto;    
 }
+
+/*Warum ist es immer noch hochkant und nicht quer wie in der Aufgabenstellung? Was fehlt bei mir?*/ 
