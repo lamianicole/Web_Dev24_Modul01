@@ -11,7 +11,8 @@ nav ul{
     color: red;
 }
 
-nav a{
+nav a, 
+p span{
     color: red;
 }
 
@@ -26,10 +27,6 @@ h1{
 
 main p{
     padding: 5px 0px 5px 10px;
-}
-
-p span{
-    color: red
 }
 
 img{
