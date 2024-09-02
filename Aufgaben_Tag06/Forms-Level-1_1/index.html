@@ -7,9 +7,45 @@
     <title>Forms-Level-1_1</title>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <form action="">  
+    <fieldset>
+    <!-- <legend>kontaktformular</legend> -->
+        <section>
+            <div class="kontaktformular">
+            <label for="name">Name <span> *</span></label>
+            <div class="namen"><!-- die müssen beide in 1 Zeile-->
+            <input type="text" name="" id="name" placeholder="Vorname" required>
+            <input type="text" name="" id="text" placeholder="Nachname" required>
+            </div>
+            </div>
     
+            <div class="kontaktformular">
+                <label for="mail">E-Mail <span> *</span></label>
+                <input type="email" name="" id="mail" required> <!-- placeholder="E-Mail Adresse" -->
+            </div>
+
+        <!-- radio dropdown Thema-->
+            <div class="kontaktformular">
+                <label for="thema">Thema</label>
+                <select name="thema" required>
+                    <option value="general">General</option>
+                    <option value="advertising">Advertising</option>
+                    <option value="partnership">Partnership</option>
+                </select>
+            </div>
+    <!-- textarea und file NACHRICHT-->
+            <div class="nachricht-textfeld">
+            <label for="nachricht">Nachricht <span> *</span></label>
+            <textarea name="" id="nachricht" rows="8" required></textarea>
+            </div>
+
+    <!--Button Submit -->
+            </div class="submit-fläche">
+                <input type="submit" value="Submit">
+            </div>
+        </section>
+    </fieldset>
+    
+    <!-- <script src="./assets/main.js"></script>    -->
 </body>
 </html>
