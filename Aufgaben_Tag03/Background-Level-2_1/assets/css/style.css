@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    /*margin: 0;*/
+    padding: 0;
+}
+
+section{
+    background-image: url("https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80");
+    background-color: blue;
+    /* background-repeat: no-repeat; per default wiederholt es sich, das will ich hier ja auch*/
+    background-position: center;
+    background-size: contain;
+    
+    color: aliceblue;
+    text-align: center;
+
+    }
+
+article{
+    background-image: url("https://images.unsplash.com/photo-1603398749947-87246022fbf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    
+}
+
+/*section soll background-img erhalten, das an height der section angepasst wird und horizontal wiederholt wird*/
+
+/*article erhält background-img, passt sich an Größe des elements an, aber nur auf der rechten Seite angezeigt wird. (Per default startet alles links oben)*/
