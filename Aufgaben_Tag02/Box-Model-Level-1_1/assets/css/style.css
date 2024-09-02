@@ -12,4 +12,4 @@ p {
     margin: 25px auto;    
 }
 
-/*Warum ist es immer noch hochkant und nicht quer wie in der Aufgabenstellung? Was muss ich noch angeben?*/ 
+/*Warum ist es immer noch hochkant und nicht quer wie in der Aufgabenstellung? Was muss ich noch angeben? Antwort: width hatte nur 200px, zu wenig, daher dehnt sich Inhalt nach unten statt in die Breite, also width Pixelgröße erhöhen*/ 
