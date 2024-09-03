@@ -1,6 +1,57 @@
+html{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*evtl. noch Schrift anpassen*/
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1655871710988-ad65ef6f3696?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: blue;
+    background-size: cover;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+nav{
+    display: flex;
+    position: sticky;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    /*noch mal gucken*/
+}
+
+h1{
+    color: whitesmoke;
+}
+
+.links-container{
+    justify-content: flex-end;
+    justify-content: space-between;
+    display: flex;
+    width: 200px;
+}
+
+a{
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
 
