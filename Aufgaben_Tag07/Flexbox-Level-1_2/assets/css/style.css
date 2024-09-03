@@ -4,9 +4,10 @@ html{
 /*evtl. noch Schrift anpassen*/
 
 body{
-    background-image: url(https://images.unsplash.com/photo-1655871710988-ad65ef6f3696?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url("https://images.unsplash.com/photo-1655871710988-ad65ef6f3696?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     color: blue;
     background-size: cover;
+    height: 100vh;
 }
 
 *{
@@ -21,9 +22,10 @@ nav{
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 10px 10px;
-    /*noch mal gucken*/
+    /* flex-wrap: wrap; */
+    padding: 10px 35px;
+    background-color: rgba(128, 128, 128, 0.224);
+    
 }
 
 h1{
@@ -31,15 +33,14 @@ h1{
 }
 
 .links-container{
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     justify-content: space-between;
     display: flex;
     width: 200px;
+    gap: 20px;
 }
 
 a{
-    gap: 20px;
-    list-style: none;
     text-decoration: none;
     color: whitesmoke;
 }
