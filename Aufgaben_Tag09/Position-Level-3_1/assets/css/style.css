@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "monoton";
+    src: url(../fonts/Monoton-Regular.ttf);
+}
+
+@font-face {
+    font-family: "ubuntu";
+    src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    font-family: "ubuntu";   
+}
+
+body{
+    height: 100vh;
+}
+
+div{
+    color: #070707;
+    color: #9d9f9f;
+    color: #f4f7f8;
+    color: #AC8059;
+}
+
+nav{
+    border: 1px solid red;
+}
+
+.nav-left{
+    border: 1px solid blue;
+}
+
+.nav-right{
+    border: 1px solid blue;
+}
+
+
+
+
+
+
+
+
+/*
+- Die Social Media Icons kannst du über [Font Awesome](https://fontawesome.com/) integrieren.*/
