@@ -1,3 +1,4 @@
+/*-------------------------general styling-----------------*/
 @font-face {
     font-family: "monoton";
     src: url(../fonts/Monoton-Regular.ttf);
@@ -16,31 +17,62 @@
 
 html{
     font-size: 10px;
-    font-family: "ubuntu";   
 }
 
 body{
     height: 100vh;
+    background-color: var(--color-black);
 }
 
-div{
-    color: #070707;
-    color: #9d9f9f;
-    color: #f4f7f8;
-    color: #AC8059;
+:root{
+    --color-black: #070707;
+    --color-greige: #9d9f9f;
+    --color-rose-brown: #f4f7f8;
+    --color-light-brown: #AC8059;
 }
-
-nav{
-    border: 1px solid red;
+/*-----------styling header / navigation bar  --------------- */
+.navbar{
+    display: flex;  
+    padding: 20px;
+    gap: 0 2em;
+    justify-content: space-between;
+    scroll-behavior: smooth;
 }
 
 .nav-left{
-    border: 1px solid blue;
+    padding: 0 10px;
+    width: 30em;
+    display: flex;
+    align-items: center;
+    gap: 5em;
 }
 
 .nav-right{
-    border: 1px solid blue;
+    width: 90em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 9em;
+    padding-right: 5em;
 }
+
+.m-logo{
+    font-family: "monoton";
+    font-size: 3.3rem;
+}
+
+a{
+    font-family: "ubuntu";
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: var(--color-greige);
+}
+
+a:hover{
+    color: var(--color-rose-brown);
+    transition: 0.4s;
+}
+
 
 
 
