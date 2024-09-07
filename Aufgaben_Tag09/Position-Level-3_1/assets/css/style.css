@@ -22,6 +22,7 @@ html{
 body{
     height: 100vh;
     background-color: var(--color-black);
+    /* width: 100vw;    */
 }
 
 :root{
@@ -30,6 +31,7 @@ body{
     --color-rose-brown: #f4f7f8;
     --color-light-brown: #AC8059;
 }
+
 /*-----------styling header / navigation bar  --------------- */
 .navbar{
     display: flex;  
@@ -73,13 +75,41 @@ a:hover{
     transition: 0.4s;
 }
 
+.hr-nav{
+    border: 1px solid var(--color-greige);   
+}
 
+/*----------- main part: headline + 3 photos ------------------ */
+.main-part{
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 50em;
+    gap: 25em;
+}
 
+.text-description{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    position: relative;
+    left: 70px;
+}
 
+h1{
+    font-size: 4rem;
+    color: var(--color-greige);
+    font-family: "ubuntu"; 
+    margin-bottom: 1em; 
+    width: 30vh;  
+}
 
+.images-container{
+    display: flex;
+    column-gap: 4.3em;
+}
 
-
-
-
-/*
-- Die Social Media Icons kannst du über [Font Awesome](https://fontawesome.com/) integrieren.*/
+/*----------- footer ------------------ */
