@@ -9,16 +9,22 @@
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
-/*ist das notwendig in :root? oder in body{? oder weglassen?*/
+
+.pets{
+    border: 2px solid;
+    margin: 10px;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+ul{
+    padding-inline-start: 1.2em;
+    list-style: none;
+}
 
 li{
     line-height: 1.5em;
     font-size: 0.8em;
-}
-
-ul{
-padding-inline-start: 1.2em;
-list-style-type: none;
 }
 
 .dog li::marker{
@@ -40,9 +46,3 @@ list-style-type: none;
 .lizzard li::marker{ 
     content: "🦎";
 }
-
-section{
-    font-size: 1rem;
-    border: solid black 2px;
-}
-
