@@ -11,25 +11,23 @@
 
 html{
     font-size: 10px;
+    font-family: "Poppins";
 } 
 
 body{
     height: 100vh;
-    background: url("../img/mount-everest.jpg");
+    background-image: url("../img/mount-everest.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-color: blue;
     background-size: cover;
-    font-family: "Poppins";
-    color: whitesmoke;
 }
 
 .everest-container{
     position: relative;
+    right: 25em;
     top: 25em;
-    left: 90em;
-    padding: 25px;
-    width: 25em;
+    color: whitesmoke;
     text-align: right;
 }
 
@@ -39,5 +37,6 @@ h1 {
 
 p{
     font-size: 1.6rem;
+    margin-top: 1em;
 }
 
