@@ -18,14 +18,11 @@ body{
 
 nav{
     display: flex;
-    position: sticky;
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
     padding: 10px 35px;
-    background-color: rgba(128, 128, 128, 0.224);
-    
+    background-color: rgba(128, 128, 128, 0.224);  
 }
 
 h1{
@@ -33,7 +30,6 @@ h1{
 }
 
 .links-container{
-    /* justify-content: flex-end; */
     justify-content: space-between;
     display: flex;
     width: 200px;
