@@ -4,7 +4,6 @@ html{
 }
 
 *{
-    text-align: center;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -12,29 +11,32 @@ html{
 
 .backgrounds{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px;
+    min-height: 150px;
+    min-width: 150px;
 }
 
-div{
-    height: 150px;
-    width: 150px;
-    margin: 10px; 
+.bg-color{
+    background-color: rgb(255, 0, 25);
 }
 
-main div:nth-of-type(1){
-    background-color: yellow;
-    background-position: left center;
-}
-
-main div:nth-of-type(2){
+.bg-image{
+    color: mediumorchid;
     background-image: url(../img/jeremy-bishop-4S-7o5Z4OMk-unsplash.jpg);
-    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-main div:nth-of-type(3){
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(19, 118, 62) 35%, rgba(0,212,255,1) 100%);
-    background-position: right center;
+.bg-gradient{
+    background: linear-gradient(217deg, rgba(35, 241, 3, 0.8), rgba(114, 83, 229, 0.679) 70.71%)
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    margin-bottom: auto;
 }
