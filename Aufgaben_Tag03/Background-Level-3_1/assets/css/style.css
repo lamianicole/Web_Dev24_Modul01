@@ -1,12 +1,13 @@
-/* - Füge ein Hintergrundbild über CSS ein, dieses soll zentriert sein, sich nicht wiederholen und sich über die komplette Seite erstrecken.
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-Irgendwas stimmt nicht, es doppelt sich trotzdem. Größe des Fotos?
-*/
-
-section{
+body{
     background-image: url(../img/desert.jpg);
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
 }
