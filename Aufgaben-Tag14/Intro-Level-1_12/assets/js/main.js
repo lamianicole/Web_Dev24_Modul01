@@ -7,7 +7,7 @@
 // let score = 0;  
 // score = score + 10;  
 // console.log('Ergebnis: ' + score);
-  
+
 score += 10;  
 console.log('Ergebnis: ' + score);
 
