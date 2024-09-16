@@ -1,0 +1,1 @@
+document.getElementById("gallery").innerHTML = '<figure><img src="./assets/img/866-800x600.jpg" alt="sky"><figcaption>Fig. 1</figcaption></figure><figure><img src="./assets/img/237-600x800.jpg" alt="cup"><figcaption>Fig. 2</figcaption></figure><figure><img src="./assets/img/99-600x800-grayscale.jpg" alt="darksky"><figcaption>Fig. 3</figcaption></figure>';
