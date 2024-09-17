@@ -6,4 +6,4 @@ function doubleNumber() {
     document.getElementById('result').innerHTML = doubled;
 }
 
-// Muss in Zeile 17 innerHTML oder innerText?
+// Muss in Zeile 6 innerHTML oder innerText?
